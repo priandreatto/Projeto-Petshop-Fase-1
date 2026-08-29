@@ -2,19 +2,73 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Ajuda - Funcionalidades do Site</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop Fucinhos Felizes - Ajuda e Documentação</title>
 </head>
-<body class="container py-5">
-    <h1>Manual de Funcionalidades do Sistema</h1>
+<body>
+
+    <!-- Cabeçalho (Header) -->
+    <header>
+        <h1>🐾 Petshop Fucinhos Felizes</h1>
+        <p>O melhor cuidado e dedicação para o seu melhor amigo!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#produtos">Produtos</a></li>
+                <li><a href="index.html#servicos">Serviços</a></li>
+                <li><a href="cadastro.html">Cadastro & Agendamento</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <hr>
-    <ul>
-        <li><strong>Página Home:</strong> Apresenta um carrossel dinâmico e uma saudação automática que muda conforme o horário do dia.</li>
-        <li><strong>Cadastro de Clientes:</strong> Coleta dados pessoais com validação de campos obrigatórios.</li>
-        <li><strong>Cadastro de Pets:</strong> Permite registrar o nome, a raça e a idade do animal.</li>
-        <li><strong>Agendamento:</strong> Oferece opções de serviços (Banho/Tosa) e escolha de data/hora via calendário interativo.</li>
-        <li><strong>Acessibilidade:</strong> O site utiliza tags semânticas e atributos <code>alt</code> em todas as imagens para suporte a leitores de tela.</li>
-    </ul>
-    <a href="index.html" class="btn btn-primary">Voltar ao Início</a>
+
+    <!-- Conteúdo Principal / Manual de Ajuda -->
+    <main>
+        <h2>Manual de Funcionalidades do Sistema (Fase 1)</h2>
+        <p>Este documento descreve a estrutura, o propósito e a navegação das páginas que compõem o sistema web:</p>
+
+        <section>
+            <h3>1. Página Principal (Home - <code>index.html</code>)</h3>
+            <ul>
+                <li><strong>Cabeçalho e Menu de Navegação:</strong> Fornece acesso rápido às principais áreas do site (Início, Produtos, Serviços, Cadastro e Ajuda).</li>
+                <li><strong>Catálogo de Produtos:</strong> Exibe 3 categorias distintas (Cães, Gatos e Aves/Pequenos Animais), contendo 2 produtos cada, com imagens ilustrativas, descrições detalhadas e preços.</li>
+                <li><strong>Catálogo de Serviços:</strong> Lista os serviços disponíveis (Banho e Tosa, Consulta Veterinária e Hospedagem), especificando descrição, valores e disponibilidade de transporte via tele-busca.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>2. Página de Cadastro e Agendamento (<code>cadastro.html</code>)</h3>
+            <ul>
+                <li><strong>Identificação do Cliente:</strong> Coleta dados de contato do tutor (Nome completo, CPF, Sexo, E-mail, Telefone e Endereço).</li>
+                <li><strong>Dados do Pet:</strong> Permite cadastrar as informações do animal (Nome, Espécie/Raça e Idade estimada).</li>
+                <li><strong>Agendamento de Serviços:</strong> Permite selecionar múltiplos serviços, escolher a modalidade de transporte (Tele-busca ou Presencial), definir data/horário e adicionar observações sobre cuidados especiais.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>3. Acessibilidade e Semântica</h3>
+            <ul>
+                <li><strong>Estruturação Semântica:</strong> Emprego das tags HTML5 padrão (<code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code>) para leitura adequada por navegadores e tecnologias assistivas.</li>
+                <li><strong>Acessibilidade Textual:</strong> Todas as imagens possuem atributos <code>alt</code> com descrições do conteúdo visual.</li>
+            </ul>
+        </section>
+
+        <p><a href="index.html">← Voltar à Página Principal</a></p>
+    </main>
+
+    <hr>
+
+    <!-- Rodapé (Footer) -->
+    <footer>
+        <h3>Informações de Contato e Autoria</h3>
+        <p><strong>Petshop Fucinhos Felizes LTDA</strong> | CNPJ: 00.000.000/0001-00</p>
+        <p>Endereço: Rua dos Animais, nº 456 - Centro</p>
+        <p>Telefone / WhatsApp: (00) 91234-5678 | E-mail: contato@fucinhosfelizes.com</p>
+        <p>Links rápidos: <a href="index.html">Home</a> | <a href="cadastro.html">Cadastro</a> | <a href="ajuda.html">Ajuda</a></p>
+        <p>&copy; 2026 - Desenvolvido para o Projeto da Disciplina (Fase 1).</p>
+    </footer>
+
 </body>
 </html>
