@@ -5,8 +5,8 @@ Este repositório contém o desenvolvimento da primeira etapa do Projeto da Disc
 ---
 
 ## 🔗 Links de Acesso
-* **Código-fonte no GitHub:** [https://github.com/priandreatto/Projeto-Petshop-Fase-2](https://github.com/priandreatto/Projeto-Petshop-Fase-2)
-* **Sistema Publicado (GitHub Pages):** [https://priandreatto.github.io/Projeto-Petshop-Fase-2/](https://priandreatto.github.io/Projeto-Petshop-Fase-2/)
+* **Código-fonte no GitHub:** [https://github.com/priandreatto/Projeto-Petshop-Fase-1](https://github.com/priandreatto/Projeto-Petshop-Fase-1)
+* **Sistema Publicado (GitHub Pages):** [https://priandreatto.github.io/Projeto-Petshop-Fase-1/](https://priandreatto.github.io/Projeto-Petshop-Fase-1/)
 
 ---
 
